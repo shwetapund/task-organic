@@ -1,0 +1,47 @@
+.footer-cont{
+    padding-top: 100px;
+}
+.diff-color{
+    color:greenyellow;
+}
+.btn-footer{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px 0px 0px 10px;
+  
+}
+.small{
+    background-color:greenyellow ;
+    padding: 6px 15px;
+  
+    border-radius: 0px 10px 10px 0px;
+}
+.text-organic{
+    color: greenyellow;
+}
+.footer-container{
+    background-image: url("./../../assets/carrot-dark-back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+.social-icon{
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+.social-icon-cont{
+    margin-left: 200px;
+}
+.normal-text{
+    position: relative;
+    right: 90px;
+}
+.color-green{
+    color: greenyellow;
+}

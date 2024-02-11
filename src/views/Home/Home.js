@@ -5,7 +5,7 @@ import Card from '../../components/Cards/Card';
 import bellPepper from "./../../assets/bell=pepper.jpg";
 import cocumber from "./../../assets/cocumber.jpg";
 import sproutVeggie from "./../../assets/sprout-veggie.jpg";
-import carrots from "./../../assets/carrot-fruit.jpg";
+import carrots from "./../../assets/carrot-dark-back.jpg";
 import dragon from "./../../assets/dragon-fruit.jpg";
 import watercress from "./../../assets/watercress.jpg";
 import Cards2 from '../../components/Cards2/Cards2';
@@ -15,6 +15,7 @@ import Img3 from "./../../assets/plant-a-tree.png";
 import Img4 from "./../../assets/location.png";
 import Img5 from "./../../assets/water-drops.png";
 import Img6 from "./../../assets/water-waves.png";
+import Footer from '../../components/Footer/Footer';
 
 function Home() {
   return (
@@ -74,6 +75,9 @@ function Home() {
       img={Img6}/>
     </div>
 
+
+   {/* footer */}
+    <Footer />
     </div>
     </>
   )
