@@ -43,6 +43,12 @@ function Home() {
       image={cocumber}
       title={"Organic Cocumber"}/>
     </div>
+
+    <div className='slide-image pt-3'>
+      <h1 className='text-center pt-5'>FRESH & NON-GMO PRODUCTS</h1>
+      <p className='text-center'> For far away behind the word mountains far from the countries Vokalls and Consonantia their live the blin texts</p>
+    </div>
+
     </div>
     </>
   )

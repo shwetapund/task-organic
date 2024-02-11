@@ -32,3 +32,11 @@
 .color-back{
     background-color: whitesmoke;
 }
+.slide-image{
+    background-image: url("./../../assets/back-img.jpg");
+opacity: 0.9;
+    height:200px;
+    color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
