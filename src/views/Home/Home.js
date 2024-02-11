@@ -8,6 +8,13 @@ import sproutVeggie from "./../../assets/sprout-veggie.jpg";
 import carrots from "./../../assets/carrot-fruit.jpg";
 import dragon from "./../../assets/dragon-fruit.jpg";
 import watercress from "./../../assets/watercress.jpg";
+import Cards2 from '../../components/Cards2/Cards2';
+import Img1 from "./../../assets/leaf.png";
+import Img2 from "./../../assets/hello.png";
+import Img3 from "./../../assets/plant-a-tree.png";
+import Img4 from "./../../assets/location.png";
+import Img5 from "./../../assets/water-drops.png";
+import Img6 from "./../../assets/water-waves.png";
 
 function Home() {
   return (
@@ -47,6 +54,24 @@ function Home() {
     <div className='slide-image pt-3'>
       <h1 className='text-center pt-5'>FRESH & NON-GMO PRODUCTS</h1>
       <p className='text-center'> For far away behind the word mountains far from the countries Vokalls and Consonantia their live the blin texts</p>
+    </div>
+
+    <div className='d-flex justify-content-center'>
+      <Cards2 
+      img={Img1}/>
+      <Cards2 
+      img={Img2}/>
+      <Cards2 
+      img={Img3}/>
+    </div>
+
+    <div className='d-flex justify-content-center second-cards'>
+      <Cards2 
+      img={Img4}/>
+      <Cards2 
+      img={Img5}/>
+      <Cards2 
+      img={Img6}/>
     </div>
 
     </div>
