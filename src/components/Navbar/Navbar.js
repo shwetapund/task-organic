@@ -7,7 +7,7 @@ function Navbar() {
   
   return (
 
-    <nav class="navbar ppn navbar-expand-lg bg-secondary">
+    <nav class="navbar ppn navbar-expand-lg bg-white">
       <div className="container-fluid">
         <Link className="navbar-brand  fs-5 logo-color ms-5" to="/">
         GREEN</Link>
